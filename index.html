@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href=" https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <script defer src="script.js"></script>
+  <title>Shoping App</title>
+</head>
+
+<body>
+  <header>
+    <div class="container-menu">
+      <div class="top-bar">
+        <div class="content-topbar container">
+          <div class="left-top-bar">
+            Free shipping for standard order over $100
+          </div>
+          <div class="right-top-bar">
+            <a href="#" class="right-bar"> Help & FAQs </a>
+            <a href="#" class="right-bar"> My Account </a>
+            <a href="#" class="right-bar"> EN </a>
+            <a href="#" class="right-bar"> USD </a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="warp-menu">
+        <nav class="nav container">
+          <a href="#" class="logo">
+            <img src="img/logo.png" class="logo" alt="logo-png">
+          </a>
+          <div class="menu-desktop">
+            <ul class="main-menu">
+              <li class="active-menu">
+                <a href="index.html">Home</a>
+                <!-- <ul class="sub-menu">
+              <li>
+                <a href="index.html">Homepage1</a>
+              </li>
+              <li>
+                <a href="home-02.html">Homepage2</a>
+              </li>
+            </ul> -->
+              </li>
+              <li>
+                <a href="#">Shop</a>
+              </li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="header-nav">
+            <div class="header-nav__icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" stroke-width=".3" stroke="currentColor"
+                class="uil uli-search search__icon" id="searchIcon">
+                <path fill-rule="evenodd"
+                  d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+                  clip-rule="evenodd" />
+              </svg>
+
+
+
+              <div class="search-box">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width=".3"
+                  stroke="currentColor" class="uil uli-search search__icon">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                </svg>
+                <input type="text" placeholder="search here...">
+              </div>
+            </div>
+
+
+
+            <div class="header-nav__icon-box">
+              <a class="header-nav__link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                  stroke="currentColor" class="header-nav__icon">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                </svg>
+                <span class="cart-text">wishlist</span>
+              </a>
+            </div>
+
+            <div class="header-nav__icon-box">
+              <a class="header-nav__link right-box" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                  class="header-nav__icon">
+                  <path
+                    d="M1 1.75A.75.75 0 011.75 1h1.628a1.75 1.75 0 011.734 1.51L5.18 3a65.25 65.25 0 0113.36 1.412.75.75 0 01.58.875 48.645 48.645 0 01-1.618 6.2.75.75 0 01-.712.513H6a2.503 2.503 0 00-2.292 1.5H17.25a.75.75 0 010 1.5H2.76a.75.75 0 01-.748-.807 4.002 4.002 0 012.716-3.486L3.626 2.716a.25.25 0 00-.248-.216H1.75A.75.75 0 011 1.75zM6 17.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15.5 19a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                </svg>
+                <span class="cart-text">Cart</span>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="slider">
+    <div class="slide">
+      <img src="https://preview.colorlib.com/theme/cozastore/images/slide-01.jpg.webp" alt="Photo 1" />
+    </div>
+    <div class="slide"><img src="https://preview.colorlib.com/theme/cozastore/images/slide-03.jpg.webp" alt="Photo 2" />
+    </div>
+    <div class="slide"><img src="https://preview.colorlib.com/theme/cozastore/images/slide-02.jpg.webp" alt="Photo 3" />
+    </div>
+  </div>
+
+  <button class="slider__btn slider__btn--left">&lt;</button>
+  <button class="slider__btn slider__btn--right"> &gt;</button>
+  </div>
+
+  <div class="section-banner">
+    <div class="container">
+      <div class="rows">
+        <div class="row">
+          <div class="box-img img-p">
+            <img src="https://preview.colorlib.com/theme/cozastore/images/banner-01.jpg.webp" alt="Img-Banner">
+            <a href="product.html" class="box-text">
+              <div class="box-text1">
+                <span class="box-name"> Women </span>
+                <span class="box-info"> Spring 2023 </span>
+              </div>
+              <div class="box-text2">
+                <div class="box-link"> Shop Now </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="box-img img-p">
+            <img src="https://preview.colorlib.com/theme/cozastore/images/banner-02.jpg.webp" alt="Img-Banner">
+            <a href="product.html" class="box-text">
+              <div class="box-text1">
+                <span class="box-name"> Men </span>
+                <span class="box-info"> Spring 2023 </span>
+              </div>
+              <div class="box-text2">
+                <div class="box-link"> Shop Now </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="box-img img-p">
+            <img src="https://preview.colorlib.com/theme/cozastore/images/banner-03.jpg.webp" alt="Img-Banner">
+            <a href="product.html" class="box-text">
+              <div class="box-text1">
+                <span class="box-name"> Accessories </span>
+                <span class="box-info"> New Trend </span>
+              </div>
+              <div class="box-text2">
+                <div class="box-link"> Shop Now </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
